@@ -1,1 +1,1 @@
-# Plateforme-de-prise-de-rendez-vous-m-dical
+# Plateforme-de-prise-de-rendez-vous-médical
