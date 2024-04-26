@@ -18,7 +18,7 @@
         </a>
         <h1 class="h6 mb-3">{{ __('Login') }}</h1>
         <div class="form-group">
-            <label for="inputEmail" class="sr-only">{{ __('Email address') }}</label>
+            <label for="inputEmail" class="sr-only">{{ __('Your Email address') }}</label>
             <input type="email" id="inputEmail" class="form-control form-control-lg @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" placeholder="Email address" required="" autofocus="">
             @error('email')
                     <span class="invalid-feedback" role="alert">
@@ -27,7 +27,7 @@
             @enderror
         </div>
         <div class="form-group">
-        <label for="inputPassword" class="sr-only">{{ __('Password') }}</label>
+        <label for="inputPassword" class="sr-only">{{ __('Your Password') }}</label>
         <input type="password" id="inputPassword" class="form-control form-control-lg @error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
         @error('password')
                <span class="invalid-feedback" role="alert">
